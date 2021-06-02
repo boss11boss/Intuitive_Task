@@ -104,6 +104,49 @@ export const apiEndPoints = {
   addLeaveApplication: configurations.ApiUrl + "LeaveApplication/CreateOrUpdateLeaveApplication",
   deleteLeaveApplication: configurations.ApiUrl + "LeaveApplication/DeleteLeaveApplication",
 
+  // LeaveApproval
+  //getLeaveApprovalList: configurations.ApiUrl + "LeaveApplication/LeaveApplicationList",
+  //getLeaveApprovalDropDown: configurations.ApiUrl + "LeaveApplication/AddLeaveApplicationDropDown",
+  //getLeaveApprovalById: configurations.ApiUrl + "LeaveApplication/GetLeaveApplicationByID",
+  //addLeaveApproval: configurations.ApiUrl + "LeaveApplication/CreateOrUpdateLeaveApplication",
+  //deleteLeaveApproval: configurations.ApiUrl + "LeaveApplication/DeleteLeaveApplication",
+
+  // LeaveMaster
+  getLeaveMasterList: configurations.ApiUrl + "LeaveMaster/LeaveMasterList",
+  getLeaveMasterDropDown: configurations.ApiUrl + "LeaveMaster/AddLeaveMasterDropDown",
+  getLeaveMasterById: configurations.ApiUrl + "LeaveMaster/GetLeaveMasterByID",
+  addLeaveMaster: configurations.ApiUrl + "LeaveMaster/CreateOrUpdateLeaveMaster",
+  deleteLeaveMaster: configurations.ApiUrl + "LeaveMaster/DeleteLeaveMaster",
+
+  // LeaveOpening
+  getLeaveOpeningList: configurations.ApiUrl + "LeaveOpeningMaster/LeaveOpeningMasterList",
+  getLeaveOpeningDropDown: configurations.ApiUrl + "LeaveOpeningMaster/AddLeaveOpeningMasterDropDown",
+  getLeaveOpeningById: configurations.ApiUrl + "LeaveOpeningMaster/GetLeaveOpeningMasterByID",
+  addLeaveOpening: configurations.ApiUrl + "LeaveOpeningMaster/CreateOrUpdateLeaveOpeningMaster",
+  deleteLeaveOpening: configurations.ApiUrl + "LeaveOpeningMaster/DeleteLeaveOpeningMaster",
+
+  // PayslipMonth
+  //getLeaveOpeningList: configurations.ApiUrl + "LeaveOpeningMaster/LeaveOpeningMasterList",
+  //getLeaveOpeningDropDown: configurations.ApiUrl + "LeaveOpeningMaster/AddLeaveOpeningMasterDropDown",
+  //getLeaveOpeningById: configurations.ApiUrl + "LeaveOpeningMaster/GetLeaveOpeningMasterByID",
+  //addLeaveOpening: configurations.ApiUrl + "LeaveOpeningMaster/CreateOrUpdateLeaveOpeningMaster",
+  //deleteLeaveOpening: configurations.ApiUrl + "LeaveOpeningMaster/DeleteLeaveOpeningMaster",
+
+  // ProjectWiseAttendence
+  getProjectWiseAttendanceList: configurations.ApiUrl + "ProjectAttendanceMaster/ProjectAttendanceMasterList",
+  getProjectWiseAttendanceDropDown: configurations.ApiUrl + "ProjectAttendanceMaster/AddProjectAttendanceMasterDropDown",
+  getProjectWiseAttendanceById: configurations.ApiUrl + "ProjectAttendanceMaster/CreateOrUpdateProjectAttendanceMaster",
+  addProjectWiseAttendance: configurations.ApiUrl + "ProjectAttendanceMaster/GetProjectAttendanceMasterByID",
+  deleteProjectWiseAttendance: configurations.ApiUrl + "ProjectAttendanceMaster/DeleteProjectAttendanceMaster",
+
+  // SalaryInformation
+  getSalaryInformationList: configurations.ApiUrl + "EmpSalaryInfo/EmpSalaryInfoList",
+  getSalaryInformationDropDown: configurations.ApiUrl + "EmpSalaryInfo/AddEmpSalaryInfoDropDown",
+  getSalaryInformationById: configurations.ApiUrl + "EmpSalaryInfo/CreateOrUpdateEmpSalaryInfo",
+  addSalaryInformation: configurations.ApiUrl + "EmpSalaryInfo/GetEmpSalaryInfoByID",
+  deleteSalaryInformation: configurations.ApiUrl + "EmpSalaryInfo/DeleteEmpSalaryInfo",
+
+
 
   loginUser: configurations.ApiUrl + "/User/LoginUser",
   getUserRights: configurations.ApiUrl + "/GetUserRights",
