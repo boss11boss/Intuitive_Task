@@ -11,7 +11,7 @@ export const apiResponsestatus = {
 };
 
 export const configurations = {
-  ApiUrl: "https://www.postman.com/collections/5078125429c84e74e170/",
+  ApiUrl: "https://www.postman.com/collections/5078125429c84e74e170",
 };
 
 export const getHeaders = {
@@ -56,53 +56,53 @@ export function Comparision(otherArray, compareKey) {
 export const apiEndPoints = {
   
   // AutoPayslip
-  getAutoPayslipList: configurations.ApiUrl + "PaySlipMaster/PaySlipMasterList",
-  getAutoPayslipDropDown: configurations.ApiUrl + "PaySlipMaster/AddPaySlipMasterDropDown",
-  getAutoPayslipById: configurations.ApiUrl + "PaySlipMaster/GetPaySlipMasterByID",
-  addAutoPayslip: configurations.ApiUrl + "PaySlipMaster/CreateOrUpdatePaySlipMaster",
-  deleteAutoPayslip: configurations.ApiUrl + "PaySlipMaster/DeletePaySlipMaste",
+  getAutoPayslipList: configurations.ApiUrl + "/PaySlipMaster/PaySlipMasterList",
+  getAutoPayslipDropDown: configurations.ApiUrl + "/PaySlipMaster/AddPaySlipMasterDropDown",
+  getAutoPayslipById: configurations.ApiUrl + "/PaySlipMaster/GetPaySlipMasterByID",
+  addAutoPayslip: configurations.ApiUrl + "/PaySlipMaster/CreateOrUpdatePaySlipMaster",
+  deleteAutoPayslip: configurations.ApiUrl + "/PaySlipMaster/DeletePaySlipMaste",
 
   // DeductionMaster
-  getDeductionMasterList: configurations.ApiUrl + "DeductionMaster/DeductionMasterList",
-  getDeductionMasterDropDown: configurations.ApiUrl + "DeductionMaster/AddDeductionMasterDropDown",
-  getDeductionMasterById: configurations.ApiUrl + "DeductionMaster/GetDeductionMasterByID",
-  addDeductionMaster: configurations.ApiUrl + "DeductionMaster/CreateOrUpdateDeductionMaster",
-  deleteDeductionMaster: configurations.ApiUrl + "DeductionMaster/DeleteDeductionMaster",
+  getDeductionMasterList: configurations.ApiUrl + "/DeductionMaster/DeductionMasterList",
+  getDeductionMasterDropDown: configurations.ApiUrl + "/DeductionMaster/AddDeductionMasterDropDown",
+  getDeductionMasterById: configurations.ApiUrl + "/DeductionMaster/GetDeductionMasterByID",
+  addDeductionMaster: configurations.ApiUrl + "/DeductionMaster/CreateOrUpdateDeductionMaster",
+  deleteDeductionMaster: configurations.ApiUrl + "/DeductionMaster/DeleteDeductionMaster",
 
   // EarningMaster
-  getEarningMasterList: configurations.ApiUrl + "EarningMaster/EarningMasterList",
-  getEarningMasterDropDown: configurations.ApiUrl + "EarningMaster/AddEarningMasterDropDown",
-  getEarningMasterById: configurations.ApiUrl + "EarningMaster/GetEarningMasterByID",
-  addEarningMaster: configurations.ApiUrl + "EarningMaster/CreateOrUpdateEarningMaster",
-  deleteEarningMaster: configurations.ApiUrl + "EarningMaster/DeleteEarningMaster",
+  getEarningMasterList: configurations.ApiUrl + "/EarningMaster/EarningMasterList",
+  getEarningMasterDropDown: configurations.ApiUrl + "/EarningMaster/AddEarningMasterDropDown",
+  getEarningMasterById: configurations.ApiUrl + "/EarningMaster/GetEarningMasterByID",
+  addEarningMaster: configurations.ApiUrl + "/EarningMaster/CreateOrUpdateEarningMaster",
+  deleteEarningMaster: configurations.ApiUrl + "/EarningMaster/DeleteEarningMaster",
 
   // EmployeeAndProjectBinding
-  getEmployeeAndProjectBindingList: configurations.ApiUrl + "ProjectEmpMaster/ProjectEmpMasterList",
-  getEmployeeAndProjectBindingDropDown: configurations.ApiUrl + "ProjectEmpMaster/AddProjectEmpMasterDropDown",
-  getEmployeeAndProjectBindingById: configurations.ApiUrl + "ProjectEmpMaster/GetProjectEmpMasterByID",
-  addEmployeeAndProjectBinding: configurations.ApiUrl + "ProjectEmpMaster/CreateOrUpdateProjectEmpMaster",
-  deleteEmployeeAndProjectBinding: configurations.ApiUrl + "ProjectEmpMaster/DeleteProjectEmpMaster",
+  getEmployeeAndProjectBindingList: configurations.ApiUrl + "/ProjectEmpMaster/ProjectEmpMasterList",
+  getEmployeeAndProjectBindingDropDown: configurations.ApiUrl + "/ProjectEmpMaster/AddProjectEmpMasterDropDown",
+  getEmployeeAndProjectBindingById: configurations.ApiUrl + "/ProjectEmpMaster/GetProjectEmpMasterByID",
+  addEmployeeAndProjectBinding: configurations.ApiUrl + "/ProjectEmpMaster/CreateOrUpdateProjectEmpMaster",
+  deleteEmployeeAndProjectBinding: configurations.ApiUrl + "/ProjectEmpMaster/DeleteProjectEmpMaster",
 
   // EmployeeTransfer
-  getEmployeeTransferList: configurations.ApiUrl + "EmployeeTransfer/EmployeeTransferList",
-  getEmployeeTransferDropDown: configurations.ApiUrl + "/User/LoginUser",
-  getEmployeeTransferById: configurations.ApiUrl + "EmployeeTransfer/GetEmployeeTransferByID",
-  addEmployeeTransfer: configurations.ApiUrl + "EmployeeTransfer/CreateOrUpdateEmployeeTransfer",
-  deleteEmployeeTransfer: configurations.ApiUrl + "EmployeeTransfer/DeleteEmployeeTransfer",
+  getEmployeeTransferList: configurations.ApiUrl + "/EmployeeTransfer/EmployeeTransferList",
+  getEmployeeTransferDropDown: configurations.ApiUrl + "/EmployeeTransfer/AddEmployeeTransferDropDown",
+  getEmployeeTransferById: configurations.ApiUrl + "/EmployeeTransfer/GetEmployeeTransferByID",
+  addEmployeeTransfer: configurations.ApiUrl + "/EmployeeTransfer/CreateOrUpdateEmployeeTransfer",
+  deleteEmployeeTransfer: configurations.ApiUrl + "/EmployeeTransfer/DeleteEmployeeTransfer",
   
   // HolidayMaster
-  getHolidayMasterList: configurations.ApiUrl + "HolidayMaster/HolidayMasterList",
-  getHolidayMasterDropDown: configurations.ApiUrl + "HolidayMaster/AddHolidayMasterDropDown",
-  getHolidayMasterById: configurations.ApiUrl + "HolidayMaster/GetHolidayMasterByID",
-  addHolidayMaster: configurations.ApiUrl + "HolidayMaster/CreateOrUpdateHolidayMaster",
-  deleteHolidayMaster: configurations.ApiUrl + "HolidayMaster/DeleteHolidayMaster",
+  getHolidayMasterList: configurations.ApiUrl + "/HolidayMaster/HolidayMasterList",
+  getHolidayMasterDropDown: configurations.ApiUrl + "/HolidayMaster/AddHolidayMasterDropDown",
+  getHolidayMasterById: configurations.ApiUrl + "/HolidayMaster/GetHolidayMasterByID",
+  addHolidayMaster: configurations.ApiUrl + "/HolidayMaster/CreateOrUpdateHolidayMaster",
+  deleteHolidayMaster: configurations.ApiUrl + "/HolidayMaster/DeleteHolidayMaster",
 
   // LeaveApplication
-  getLeaveApplicationList: configurations.ApiUrl + "LeaveApplication/LeaveApplicationList",
-  getLeaveApplicationDropDown: configurations.ApiUrl + "LeaveApplication/AddLeaveApplicationDropDown",
-  getLeaveApplicationById: configurations.ApiUrl + "LeaveApplication/GetLeaveApplicationByID",
-  addLeaveApplication: configurations.ApiUrl + "LeaveApplication/CreateOrUpdateLeaveApplication",
-  deleteLeaveApplication: configurations.ApiUrl + "LeaveApplication/DeleteLeaveApplication",
+  getLeaveApplicationList: configurations.ApiUrl + "/LeaveApplication/LeaveApplicationList",
+  getLeaveApplicationDropDown: configurations.ApiUrl + "/LeaveApplication/AddLeaveApplicationDropDown",
+  getLeaveApplicationById: configurations.ApiUrl + "/LeaveApplication/GetLeaveApplicationByID",
+  addLeaveApplication: configurations.ApiUrl + "/LeaveApplication/CreateOrUpdateLeaveApplication",
+  deleteLeaveApplication: configurations.ApiUrl + "/LeaveApplication/DeleteLeaveApplication",
 
   // LeaveApproval
   //getLeaveApprovalList: configurations.ApiUrl + "LeaveApplication/LeaveApplicationList",
@@ -112,18 +112,18 @@ export const apiEndPoints = {
   //deleteLeaveApproval: configurations.ApiUrl + "LeaveApplication/DeleteLeaveApplication",
 
   // LeaveMaster
-  getLeaveMasterList: configurations.ApiUrl + "LeaveMaster/LeaveMasterList",
-  getLeaveMasterDropDown: configurations.ApiUrl + "LeaveMaster/AddLeaveMasterDropDown",
-  getLeaveMasterById: configurations.ApiUrl + "LeaveMaster/GetLeaveMasterByID",
-  addLeaveMaster: configurations.ApiUrl + "LeaveMaster/CreateOrUpdateLeaveMaster",
-  deleteLeaveMaster: configurations.ApiUrl + "LeaveMaster/DeleteLeaveMaster",
+  getLeaveMasterList: configurations.ApiUrl + "/LeaveMaster/LeaveMasterList",
+  getLeaveMasterDropDown: configurations.ApiUrl + "/LeaveMaster/AddLeaveMasterDropDown",
+  getLeaveMasterById: configurations.ApiUrl + "/LeaveMaster/GetLeaveMasterByID",
+  addLeaveMaster: configurations.ApiUrl + "/LeaveMaster/CreateOrUpdateLeaveMaster",
+  deleteLeaveMaster: configurations.ApiUrl + "/LeaveMaster/DeleteLeaveMaster",
 
   // LeaveOpening
-  getLeaveOpeningList: configurations.ApiUrl + "LeaveOpeningMaster/LeaveOpeningMasterList",
-  getLeaveOpeningDropDown: configurations.ApiUrl + "LeaveOpeningMaster/AddLeaveOpeningMasterDropDown",
-  getLeaveOpeningById: configurations.ApiUrl + "LeaveOpeningMaster/GetLeaveOpeningMasterByID",
-  addLeaveOpening: configurations.ApiUrl + "LeaveOpeningMaster/CreateOrUpdateLeaveOpeningMaster",
-  deleteLeaveOpening: configurations.ApiUrl + "LeaveOpeningMaster/DeleteLeaveOpeningMaster",
+  getLeaveOpeningList: configurations.ApiUrl + "/LeaveOpeningMaster/LeaveOpeningMasterList",
+  getLeaveOpeningDropDown: configurations.ApiUrl + "/LeaveOpeningMaster/AddLeaveOpeningMasterDropDown",
+  getLeaveOpeningById: configurations.ApiUrl + "/LeaveOpeningMaster/GetLeaveOpeningMasterByID",
+  addLeaveOpening: configurations.ApiUrl + "/LeaveOpeningMaster/CreateOrUpdateLeaveOpeningMaster",
+  deleteLeaveOpening: configurations.ApiUrl + "/LeaveOpeningMaster/DeleteLeaveOpeningMaster",
 
   // PayslipMonth
   //getLeaveOpeningList: configurations.ApiUrl + "LeaveOpeningMaster/LeaveOpeningMasterList",
@@ -133,18 +133,18 @@ export const apiEndPoints = {
   //deleteLeaveOpening: configurations.ApiUrl + "LeaveOpeningMaster/DeleteLeaveOpeningMaster",
 
   // ProjectWiseAttendence
-  getProjectWiseAttendanceList: configurations.ApiUrl + "ProjectAttendanceMaster/ProjectAttendanceMasterList",
-  getProjectWiseAttendanceDropDown: configurations.ApiUrl + "ProjectAttendanceMaster/AddProjectAttendanceMasterDropDown",
-  getProjectWiseAttendanceById: configurations.ApiUrl + "ProjectAttendanceMaster/CreateOrUpdateProjectAttendanceMaster",
-  addProjectWiseAttendance: configurations.ApiUrl + "ProjectAttendanceMaster/GetProjectAttendanceMasterByID",
-  deleteProjectWiseAttendance: configurations.ApiUrl + "ProjectAttendanceMaster/DeleteProjectAttendanceMaster",
+  getProjectWiseAttendanceList: configurations.ApiUrl + "/ProjectAttendanceMaster/ProjectAttendanceMasterList",
+  getProjectWiseAttendanceDropDown: configurations.ApiUrl + "/ProjectAttendanceMaster/AddProjectAttendanceMasterDropDown",
+  getProjectWiseAttendanceById: configurations.ApiUrl + "/ProjectAttendanceMaster/CreateOrUpdateProjectAttendanceMaster",
+  addProjectWiseAttendance: configurations.ApiUrl + "/ProjectAttendanceMaster/GetProjectAttendanceMasterByID",
+  deleteProjectWiseAttendance: configurations.ApiUrl + "/ProjectAttendanceMaster/DeleteProjectAttendanceMaster",
 
   // SalaryInformation
-  getSalaryInformationList: configurations.ApiUrl + "EmpSalaryInfo/EmpSalaryInfoList",
-  getSalaryInformationDropDown: configurations.ApiUrl + "EmpSalaryInfo/AddEmpSalaryInfoDropDown",
-  getSalaryInformationById: configurations.ApiUrl + "EmpSalaryInfo/CreateOrUpdateEmpSalaryInfo",
-  addSalaryInformation: configurations.ApiUrl + "EmpSalaryInfo/GetEmpSalaryInfoByID",
-  deleteSalaryInformation: configurations.ApiUrl + "EmpSalaryInfo/DeleteEmpSalaryInfo",
+  getSalaryInformationList: configurations.ApiUrl + "/EmpSalaryInfo/EmpSalaryInfoList",
+  getSalaryInformationDropDown: configurations.ApiUrl + "/EmpSalaryInfo/AddEmpSalaryInfoDropDown",
+  getSalaryInformationById: configurations.ApiUrl + "/EmpSalaryInfo/CreateOrUpdateEmpSalaryInfo",
+  addSalaryInformation: configurations.ApiUrl + "/EmpSalaryInfo/GetEmpSalaryInfoByID",
+  deleteSalaryInformation: configurations.ApiUrl + "/EmpSalaryInfo/DeleteEmpSalaryInfo",
 
 
 
