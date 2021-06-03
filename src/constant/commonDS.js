@@ -11,7 +11,7 @@ export const apiResponsestatus = {
 };
 
 export const configurations = {
-  ApiUrl: "https://www.postman.com/collections/5078125429c84e74e170",
+  ApiUrl: "https://www.postman.com/collections/5078125429c84e74e170/api",
 };
 
 export const getHeaders = {
@@ -198,7 +198,7 @@ export const apiEndPoints = {
   getUserMetaList: configurations.ApiUrl + "/User/AddUserDropDown",
   getVehicleMetaList: configurations.ApiUrl + "/Vehicle/AddVehicleDropDown",
   getRoomMetaList: configurations.ApiUrl + "/Room/AddRoomDropDown",
-  loginUserDropDown: configurations.ApiUrl + "/api/User/LoginUserDropDown",
+  loginUserDropDown: configurations.ApiUrl + "/User/LoginUserDropDown",
   getEmployeeList: configurations.ApiUrl + "/User/GetAllEmployee",
   addEmployee: configurations.ApiUrl + "/User/CreateOrUpdateEmployee",
   getGroupRights: configurations.ApiUrl + "/GetAllRightsByRoleId",
